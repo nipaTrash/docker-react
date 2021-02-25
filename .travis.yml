@@ -8,4 +8,3 @@ before_install:
 
 script:
   - docker run -e CI=true jsdevelooper/docker-react npm run test -- --coverage
-  
